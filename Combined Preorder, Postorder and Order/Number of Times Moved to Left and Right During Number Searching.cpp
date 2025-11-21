@@ -94,3 +94,4 @@ int main() {
     cout << "\nNumber of Moves to the Left: " << leftmove <<"\n";
     cout << "Number of Moves to the Right: " <<rightmove <<"\n";
 }
+
