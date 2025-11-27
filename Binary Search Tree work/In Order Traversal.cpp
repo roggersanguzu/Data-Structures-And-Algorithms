@@ -4,7 +4,6 @@ struct node{
 	int data;
 	node *left, *right;
 };
-
 node *createnode(node *root, int item){
 	if(root==NULL){
 		root=new node;
@@ -48,4 +47,5 @@ int main(){
 	cout<<"In Order Traversal: \n";
 	InorderTraversal(root);
 }
+
 
